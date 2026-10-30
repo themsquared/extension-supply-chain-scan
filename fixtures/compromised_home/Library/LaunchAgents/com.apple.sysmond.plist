@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SIMULATED IOC - inert stub mirroring the disguised LaunchAgent label
+     and path documented in the public writeup. Not a real LaunchAgent. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.apple.sysmond</string>
+</dict>
+</plist>
