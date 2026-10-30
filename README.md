@@ -56,10 +56,9 @@ Full technical writeup, which this repo's IOC list is sourced from:
 
 ## The value proposition this maps to
 
-This was not a flaw in Anthropic's own release pipeline. It was a
-compromise of a **third-party marketplace distribution channel**: the
-Cursor Marketplace served a backdoored bundle under the extension's real
-name and publisher. An IDE extension runs with the full permissions of the
+The **Cursor Marketplace**, a third-party extension registry, served a
+backdoored bundle under the extension's real name and publisher. Phorion's
+public writeup does not implicate Anthropic's own release pipeline. An IDE extension runs with the full permissions of the
 IDE and the user running it, so once that one file loads, it can write to
 `~/.ssh`, read source trees, and reach the network with zero additional
 prompts or approvals. For anyone running agent tooling on a developer
